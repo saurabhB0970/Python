@@ -29,6 +29,24 @@ for year, movies in big_db.items():
     for movie, cast in movies.items():
         print(f"  {movie}: Cast - {', '.join(cast)}")
     
-    #The part ', '.join(cast) is used to convert a list of cast members into a single string, where each member is separated by a comma and a space.
 
 print(movies_db2025["Housefull 5"][3])
+
+Output:
+Movies released in 2022:
+  Gangubai Kathiawadi: Cast - Alia Bhatt, Vijay Raaz, Seema Pahwa     
+  Bhool Bhulaiyaa 2: Cast -  Kartik Aaryan, Kiara Advani, Rajpal Yadav
+
+Movies released in 2023:
+  Sam Bahadur: Cast - Vicky Kaushal, Fatima Sana Shaikh, Sanya Malhotra
+  Gadar 2: Cast - Sunny Deol, Ameesha Patel, Utkarsh Sharma
+
+Movies released in 2024:
+  Bade Miyan Chote Miyan: Cast - Akshay Kumar, Tiger Shroff, Prithviraj Sukumaran
+  Chhaava: Cast -  Vicky Kaushal, Akshaye Khanna, Rashmika Mandanna
+
+Movies released in 2025:
+  Alpha: Cast - Alia Bhatt, Sharvari Wagh
+  Housefull 5: Cast - Akshay Kumar, Abhishek Bachchan , Riteish Deshmukh, Jacqueline Fernandez, Sonam Bajwa
+Jacqueline Fernandez
+PS C:\Users\HP\Desktop\Python JBK\Day7> 
